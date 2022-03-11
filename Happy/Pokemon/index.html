@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>PoKemon GO</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div id="main-container">
+    <h1>Junte-se ao Clube de Treinadores de Pokémon!</h1>
+    <form id="register-form" action="">
+      <div class="full-box">
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" placeholder="Digite seu e-mail" data-min-length="2" data-email-validate>
+      </div>
+      <div class="half-box spacing">
+          <label for="name">Senha</label>
+          <input type="password" name="password" id="password" placeholder="Digite sua senha" data-password-validate data-required>
+      </div>
+
+      <div class="full-box">
+        <input onclick="logar()" id="btn-submit" type="submit" value="Logar">
+      </div>
+      <div>
+        <label for="agreement" id="agreement-label">Primeiro Acesso  <a href="CadUser.html">Cadastra - Se </a></label>
+    
+      </div>
+
+      <script src="js/scripts.js"></script>
+</html>
